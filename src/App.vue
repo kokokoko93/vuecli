@@ -2,6 +2,8 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
+    <router-link :to="{name: 'HelloWorld'}">page1</router-link>
+    <router-link :to="{name: 'Test2'}">page2</router-link>
   </div>
 </template>
 
